@@ -8,5 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pavel Pěkný",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "@types/yargs": "^17.0.24",
+    "yargs": "^17.7.2"
+  }
 }
