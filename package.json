@@ -1,0 +1,12 @@
+{
+  "name": "lochub-utils",
+  "version": "0.0.1",
+  "description": "Utility to perform tasks with LocHub TAPICC API.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Pěkný",
+  "license": "ISC"
+}
