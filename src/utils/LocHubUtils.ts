@@ -1,4 +1,4 @@
-import LocHubApiClient from "./LocHubClient";
+import LocHubApiClient from "../services/LocHubClient";
 
 export default class LocHubUtils {
     constructor() {

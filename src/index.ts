@@ -1,6 +1,6 @@
 import yargs from 'yargs/yargs';
-import LocHubApiClient from './lochub/LocHubClient';
-import LocHubUtils from './lochub/LocHubUtils';
+import LocHubApiClient from './services/LocHubClient';
+import LocHubUtils from './utils/LocHubUtils';
 
 const args = yargs(process.argv.slice(2)).options({
     tenant: { type: 'string', demandOption: true },
