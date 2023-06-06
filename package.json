@@ -11,7 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.2.5",
+    "@types/request-promise": "^4.1.48",
     "@types/yargs": "^17.0.24",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
     "yargs": "^17.7.2"
   }
 }
